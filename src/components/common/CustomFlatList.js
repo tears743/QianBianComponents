@@ -30,7 +30,7 @@ export default class CustomFlatList extends Component {
             searchData: props.searchData || {key: 'title', val: ''},
             history: [],
             refreshing: false,
-            serviceMethod: props.serviceMethod || {},
+            serviceMethod: props.serviceMethod ,
             historyKey: props.historyKey || '',
             sort: props.sort || 'createdAt,desc',
             ItemComponent: props.ItemComponent,

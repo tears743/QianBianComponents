@@ -1,0 +1,3 @@
+rootProject.name = 'QianBianComponents'
+
+include ':app'
